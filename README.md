@@ -1,6 +1,6 @@
 # heroku-integrated-firefox-geckodriver
 
-
+**NOTE:** Currently only works for slugs running Heroku-18, Heroku-16, and Cedar-14. **DO NOT** upgrade to Heroku-20 yet
 
 Buildpack `heroku-integrated-firefox-geckodriver` enables your application or client code - running in any high-level language such as *Python, Ruby or Node.js* - to access **Firefox** along with **Geckodriver** (the Selenium driver for Firefox) in a Heroku slug and enables the driver objects to perform automated operations defined in the source code.
 
