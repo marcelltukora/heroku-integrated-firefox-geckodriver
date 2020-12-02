@@ -50,7 +50,7 @@ FIREFOX_BIN: '/app/vendor/firefox/firefox'
 
 How To Use - Example Script (Python)
 ---
-For this example, I will be using Python. Here is an example script you can deploy:
+For this example, I will be using Python. Here is an example script you can deploy to a Heroku slug to test
 
 ```
 
@@ -59,7 +59,6 @@ from selenium import webdriver
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary #We import this so we can specify the Firefox browser binary location
 import os
 
-import os
 app = Flask(__name__)
 PORT = os.environ.get('PORT') or 3092
 DEBUG = False if 'DYNO' in os.environ else True
