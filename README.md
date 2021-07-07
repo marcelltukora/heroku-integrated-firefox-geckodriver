@@ -10,10 +10,10 @@ Installation:
 To install and integrate the buildpack with your application running on Heroku's dyno:
 
 ```shell
-$ heroku create --buildpack https://github.com/digitalcircuits/heroku-integrated-firefox-geckodriver
+$ heroku create --buildpack https://github.com/tukorama/heroku-integrated-firefox-geckodriver
 
 # or if your app is already created:
-$ heroku buildpacks:add https://github.com/digitalcircuits/heroku-integrated-firefox-geckodriver
+$ heroku buildpacks:add https://github.com/tukorama/heroku-integrated-firefox-geckodriver
 
 $ git push heroku master
 ```
